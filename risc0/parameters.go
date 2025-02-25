@@ -24,6 +24,11 @@ func init() {
 		"8cdad9242664be3112aba377c5425a4df735eb1c6966472b561d2855932c0469",
 		"c07a65145c3cb48b6101962ea607a4dd93c753bb26975cb47feb00d3666e4404",
 	)
+	// https://github.com/risc0/risc0/blob/v1.3.0/risc0/circuit/recursion/src/control_id.rs#L49-L55
+	risc0VerifierParameters["1.3"] = buildVerifierParameters(
+		"6fcbfc564e08874a235c181e75bb53547402b116957f700497bf482e08060a15",
+		"c07a65145c3cb48b6101962ea607a4dd93c753bb26975cb47feb00d3666e4404",
+	)
 }
 
 type VerifierParameters struct {
