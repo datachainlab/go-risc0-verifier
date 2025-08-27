@@ -4,7 +4,7 @@
 
 A verifier for [RISC Zero](https://github.com/risc0/risc0) SNARK proofs written in Go.
 
-Currently, the verifier supports RISC Zero versions v1.0 through v1.3.
+Currently, the verifier supports RISC Zero versions v1.0 through v3.0.
 
 ## License
 
